@@ -23,7 +23,7 @@ const NoteApp = (props) => {
         <NotesContext.Provider value={ { notes,dispatch } }>
             <h1>Notes</h1>
            <NoteList />
-            <p>Add Note</p>
+           
             <AddNoteForm />
         </NotesContext.Provider>
     )
